@@ -1,3 +1,4 @@
+
 <?php $__env->startSection('PageTitle','Quotes HomePage Title'); ?>
 <?php $__env->startSection('Description','Description for the home page,Home description'); ?>
 <?php $__env->startSection('content'); ?>
