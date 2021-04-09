@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\smsApp\resources\views/includes/message.blade.php ENDPATH**/ ?>
