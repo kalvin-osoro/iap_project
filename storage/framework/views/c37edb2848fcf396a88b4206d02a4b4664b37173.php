@@ -8,7 +8,7 @@
     <meta name="description" content="<?php echo $__env->yieldContent('Description'); ?>">
     <meta name="keywords" content="Keyword1, Keyword2, Keyword3, Keyword4, Keyword5, Keyword6">
 
-    <title><?php echo $__env->yieldContent('PageTitle'); ?>- Laravel.app</title>
+    <title><?php echo $__env->yieldContent('PageTitle'); ?>- Iap project</title>
     <!-- Styles -->
     <link href="<?php echo e(asset('assets/css/custom.css')); ?>" rel="stylesheet">
     <link href="<?php echo e(asset('assets/css/main.min.css')); ?>" rel="stylesheet">

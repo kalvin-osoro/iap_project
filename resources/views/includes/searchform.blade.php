@@ -5,7 +5,7 @@
     </div>
     <br><br>
     <div class="btn-search">
-      <button class="btn btn-lg btn-primary" type="submit">Click to Search Quotes</button>
+      <button class="btn btn-lg btn-primary" type="submit">Search for available courses</button>
     </div>
 
   </form>

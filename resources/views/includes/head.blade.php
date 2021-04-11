@@ -8,7 +8,7 @@
     <meta name="description" content="@yield('Description')">
     <meta name="keywords" content="Keyword1, Keyword2, Keyword3, Keyword4, Keyword5, Keyword6">
 
-    <title>@yield('PageTitle')- Laravel.app</title>
+    <title>@yield('PageTitle')- Iap project</title>
     <!-- Styles -->
     <link href="{{asset('assets/css/custom.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/main.min.css')}}" rel="stylesheet">

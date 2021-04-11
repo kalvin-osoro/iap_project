@@ -5,9 +5,9 @@
     <header class="site-header size-lg text-center" style="background-color: #ad78bc;">
   <div class="container">
     <div class="col-xs-12">
-      <h2>There are <mark>1,200 +</mark>
-   Quotes right now!
-   <h5 class="font-alt">Search Quotes in one minute</h5>
+      <h2>Welcome to <mark>our</mark>
+   Elearning system!
+   <h5 class="font-alt">Search catalogue in one minute</h5>
    <br>
    @includeif('includes.message')
    @include('includes.searchform')
@@ -22,7 +22,7 @@
       <section>
         <div class="container">
           <header class="section-header">
-            <h2>Recent Quotes</h2>
+            <h2>Admin Access Only</h2>
           </header>
 
           <div class="row jobs-details">
@@ -33,7 +33,8 @@
                   <a href="{{route('quotes.show')}}"></a>
                   <div class="hgroup">
                     <h4>
-            <a href="{{route('quotes.show')}}">Recusandae magni tempore a voluptas dolorem adipisci id.</a>
+            {{-- <a href="{{route('quotes.show')}}">Route to Student Management System.</a> --}}
+            <a href="{{url('/student')}}">Route to Student Management System.</a>
                     </h4>
                      <div class="spacer-front"></div>
                   </div>
@@ -41,7 +42,7 @@
                 </header>
 
                <footer>
-              <div class="status"><strong>Posted: &nbsp;<i class="fa fa-clock-o"></i></strong>2 minutes ago &nbsp; By:&nbsp;<a href="author-jobs-details.html">James Mwirigi</a></div>
+              {{-- <div class="status"><strong>Posted: &nbsp;<i class="fa fa-clock-o"></i></strong>2 minutes ago &nbsp; By:&nbsp;<a href="author-jobs-details.html">James Mwirigi</a></div> --}}
                   <div class="action-btn">
                     <a class="btn btn-xs btn-info" href="category-details.html">Backend</a>
                   </div>
